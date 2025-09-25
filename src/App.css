@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blanchedalmond;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+/* 外框的css */
+.wrapper {
+  width: 450px;
+  padding: 30px;
+  background-color:beige;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
