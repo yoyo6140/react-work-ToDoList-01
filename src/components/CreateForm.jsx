@@ -5,6 +5,7 @@ function CreateForm({addTodo}) {
   const handleSubmit = (e)=>{
     e.preventDefault()
     addTodo(content)
+    setContent('') //清空input
   }
 
   return (
