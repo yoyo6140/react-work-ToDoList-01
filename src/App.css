@@ -66,3 +66,8 @@ body {
   align-items: center;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
+
+.completed{
+  opacity: 0.4;
+  text-decoration: line-through 3px black;
+}
