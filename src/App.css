@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: blanchedalmond;
+  background-color: #fdf6e3;
   color: gray;
   display: flex;
   justify-content: center;
@@ -16,10 +16,11 @@ body {
 .wrapper {
   width: 450px;
   padding: 30px;
-  background-color:beige;
+  background-color:#fff8e1;
   border-radius: 5px;
   margin-top: 20px;
   text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 /* 輸入框 */
@@ -27,13 +28,13 @@ body {
   height: 40px;
   width: 100%;
   margin: 25px 0px;
-  border: 1px solid rgb(234, 168, 45);
+  border: 1px solid  #f0c36d;
   display: flex;
 }
 .create-form > input {
   outline: none;
   border: none;
-  background: none;
+  background: #fff8e1;
   color: black;
   width: 100%;
   height: 100%;
@@ -43,10 +44,25 @@ body {
 
 .create-form > button {
   border: none;
-  background-color:rgba(234, 196, 126, 0.3);
+  background-color: #f0c36d;
   color: rgb(80, 76, 76);
   width: 50px;
   height: 100%;
   border-radius: 5px;
   cursor: pointer;
+}
+.create-form > button:hover {
+  background-color: #e6b65c;
+}
+
+.todo {
+  background-color:  #fff3b0;
+  height: 40p;
+  padding: 0 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
